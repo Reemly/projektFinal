@@ -1,0 +1,36 @@
+.site {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end;
+    align-items: stretch;
+    align-content: stretch;
+    height: 100%;
+}
+
+.leftSide {
+width: 23%;
+}
+
+.article {
+width: 53%;
+}
+
+.rightSide {
+width: 24%;
+height: 80%;
+}
+
+.imgBox {
+width: 20%;
+height: 20%;
+}
+
+
+.topBar {
+width: 80%;
+height: 10%;
+}
+
+
+
+
