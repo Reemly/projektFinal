@@ -20,6 +20,11 @@ width: 53%;
 .rightSide {
 width: 24%;
 height: 80%;
+
+}
+.rightSide img {
+  height: 100px;
+  width: auto;
 }
 
 .imgBox {
@@ -51,7 +56,16 @@ grid-auto-flow: column;
 place-items: center;
 
 }
-
+.appleflex {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.applegrid {
+  display: grid;
+grid-auto-flow: column;
+place-items: center;
+}
 .greyline {
   border: solid 0.5px;
   color: rgb(185, 185, 185);
